@@ -87,7 +87,7 @@ header h1 {
 }
 .redbox{height: 10px;
     position: absolute;
-    bottom: 19px;
+    bottom: 25px;
 width: 10px;
 background-color: #F1875E;}
 
@@ -97,6 +97,11 @@ background-color: #F1875E;}
         --fs-lg: 45px;
         --fs-xl: 50px;
     }
+    .redbox{height: 10px;
+        position: absolute;
+        bottom: 19px;
+    width: 10px;
+    background-color: #F1875E;}
 
     .grid_container {
         column-count: 2;
