@@ -27,7 +27,10 @@
 
 
 }
-.grid_container2 .grid_2item{padding-top: 15px;}
+
+.grid_container2 .grid_2item {
+    padding-top: 15px;
+}
 
 .grid_container2 {
     column-count: 1;
@@ -37,6 +40,7 @@
 .item {
     padding-top: 15px;
 }
+.curser_pointer{cursor: pointer;}
 
 header div h2 {
     font-family: 'Poppins';
@@ -70,6 +74,16 @@ header h1 {
     margin-bottom: 0;
 
     color: #007FEF;
+}
+
+.grid_2item:hover {
+    transform: translatey(-5px);
+    transition: all 300ms linear;
+}
+
+.item:hover {
+    transform: translatey(-6px);
+    transition: all 300ms linear;
 }
 
 @media (min-width:576px) {
