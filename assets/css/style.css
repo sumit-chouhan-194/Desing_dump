@@ -27,6 +27,12 @@
 
 
 }
+.grid_container2 .grid_2item{padding-top: 15px;}
+
+.grid_container2 {
+    column-count: 1;
+    column-gap: 1em;
+}
 
 .item {
     padding-top: 15px;
@@ -72,12 +78,19 @@ header h1 {
         --fs-lg: 45px;
         --fs-xl: 50px;
     }
+
     .grid_container {
         column-count: 2;
         column-gap: 1em;
-    
-    
+
+
     }
+
+    .grid_container2 {
+        column-count: 2;
+        column-gap: 1em;
+    }
+
 
 }
 
@@ -87,12 +100,14 @@ header h1 {
         --fs-lg: 40px;
         --fs-xl: 60px;
     }
+
     .grid_container {
         column-count: 3;
         column-gap: 1em;
-    
-    
+
+
     }
+
 
 }
 
