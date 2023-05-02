@@ -85,6 +85,11 @@ header h1 {
     transform: translatey(-6px);
     transition: all 300ms linear;
 }
+.redbox{height: 10px;
+    position: absolute;
+    bottom: 19px;
+width: 10px;
+background-color: #F1875E;}
 
 @media (min-width:576px) {
     :root {
